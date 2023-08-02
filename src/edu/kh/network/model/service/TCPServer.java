@@ -41,7 +41,7 @@ public class TCPServer {
 			/* 사용할 변수 미리 선언*/
 		
 			ServerSocket serverSocket = null; // 서버 소켓 저장 변수 
-			Socket clientSocket = null; // 클라이언트 소켓 저장 변수 
+			Socket clientSocket = null; // 클라이언트 소켓 저장 변수 (이거 왜 씀?) 
 			
 			InputStream is = null; // 클라이언트 -> 서버 입력용 스트림 변수
 			BufferedReader br = null; // 입력용 보조 스트림 변수 
